@@ -1,0 +1,13 @@
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\bin\iPhoneSimulator\Debug\5588ScoutingApp.exe
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\bin\iPhoneSimulator\Debug\5588ScoutingApp.pdb
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\5588ScoutingApp.csprojAssemblyReference.cache
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\5588ScoutingApp.csproj.CoreCompileInputs.cache
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\5588ScoutingApp.exe
+C:\Users\Clare\source\repos\5588ScoutingApp\5588ScoutingApp\obj\iPhoneSimulator\Debug\5588ScoutingApp.pdb
