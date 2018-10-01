@@ -16,7 +16,9 @@ namespace _5588ScoutingApp
         public TabController()
         {
             scheduleTab = new UIViewController();
-            scheduleTab.Title = "Matches";
+            scheduleTab.TabBarItem = new UITabBarItem();
+            scheduleTab.TabBarItem.Image = UIImage.FromFile("RankingIcon.png");
+            scheduleTab.TabBarItem.Title = "Matches";
             scheduleTab.View.BackgroundColor = UIColor.Blue;
 
             pitTab = new UIViewController();
