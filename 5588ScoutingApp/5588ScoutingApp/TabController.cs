@@ -22,7 +22,9 @@ namespace _5588ScoutingApp
             scheduleTab.View.BackgroundColor = UIColor.Blue;
 
             pitTab = new UIViewController();
-            pitTab.Title = "Pits";
+            pitTab.TabBarItem = new UITabBarItem();
+            pitTab.TabBarItem.Image = UIImage.FromFile("pitimage.png");
+            pitTab.TabBarItem.Title = "Pit";
             pitTab.View.BackgroundColor = UIColor.Red;
 
             fieldTab = new UIViewController();
