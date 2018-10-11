@@ -11,8 +11,11 @@ using UIKit;
 
 namespace _5588ScoutingApp
 {
-    [Register ("ScheduleTab")]
-    partial class ScheduleTab
+    [Register ("TabController")]
+    partial class TabController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

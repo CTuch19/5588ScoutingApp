@@ -11,8 +11,8 @@ using UIKit;
 
 namespace _5588ScoutingApp
 {
-    [Register ("ScheduleTab")]
-    partial class ScheduleTab
+    [Register ("FieldTab")]
+    partial class FieldTab
     {
     }
 }

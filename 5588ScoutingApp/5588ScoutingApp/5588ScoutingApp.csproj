@@ -61,24 +61,29 @@
     <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FieldTab.cs" />
-    <Compile Include="FieldTab.designer.cs">
-      <DependentUpon>FieldTab.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="PitTab.cs" />
-    <Compile Include="PitTab.designer.cs">
-      <DependentUpon>PitTab.cs</DependentUpon>
+    <Compile Include="TabController1.cs" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <Compile Include="TabController.cs" />
+    <Compile Include="TabController.designer.cs">
+      <DependentUpon>TabController.cs</DependentUpon>
     </Compile>
     <Compile Include="ScheduleTab.cs" />
     <Compile Include="ScheduleTab.designer.cs">
       <DependentUpon>ScheduleTab.cs</DependentUpon>
     </Compile>
-    <Compile Include="TabController.cs" />
-    <None Include="Info.plist" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <Compile Include="TableSource.cs" />
+    <Compile Include="PitHolderTab.cs" />
+    <Compile Include="PitHolderTab.designer.cs">
+      <DependentUpon>PitHolderTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FieldTab_.cs" />
+    <Compile Include="FieldTab_.designer.cs">
+      <DependentUpon>FieldTab_.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
@@ -148,6 +153,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\RankingIcon.png" />
+    <BundleResource Include="Resources\fieldIcon.png" />
+    <BundleResource Include="Resources\pitIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
