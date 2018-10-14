@@ -11,10 +11,10 @@ namespace _5588ScoutingApp
             string CellIdentifier = "TableCell";
             ScheduleTab schedule;
 
-        public TableSource(string[] items, ScheduleTab schedule)
+            public TableSource(string[] items, ScheduleTab schedule)
             {
                 TableItems = items;
-            this.schedule = schedule;
+                this.schedule = schedule;
             }
 
             public override nint RowsInSection(UITableView tableview, nint section)
@@ -38,7 +38,7 @@ namespace _5588ScoutingApp
 
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
-            UIAlertController okAlertController = UIAlertController.Create("Row Selected", TableItems[indexPath.Row], UIAlertControllerStyle.Alert);
+            UIAlertController okAlertController = UIAlertController.Create(TableItems[indexPath.Row], "Here is their stats", UIAlertControllerStyle.Alert);
             okAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
 
             schedule.PresentViewController(okAlertController, true, null);

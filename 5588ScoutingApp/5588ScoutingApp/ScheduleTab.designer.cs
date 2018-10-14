@@ -14,5 +14,8 @@ namespace _5588ScoutingApp
     [Register ("ScheduleTab")]
     partial class ScheduleTab
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

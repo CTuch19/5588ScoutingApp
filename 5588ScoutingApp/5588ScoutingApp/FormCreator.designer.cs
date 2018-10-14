@@ -11,8 +11,8 @@ using UIKit;
 
 namespace _5588ScoutingApp
 {
-    [Register ("FieldTab")]
-    partial class FieldTab
+    [Register ("FormCreator")]
+    partial class FormCreator
     {
         void ReleaseDesignerOutlets ()
         {

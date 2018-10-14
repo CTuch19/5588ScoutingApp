@@ -18,7 +18,6 @@ namespace _5588ScoutingApp
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-
             return true;
         }
 

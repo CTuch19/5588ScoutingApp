@@ -14,5 +14,8 @@ namespace _5588ScoutingApp
     [Register ("PitHolderTab")]
     partial class PitHolderTab
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

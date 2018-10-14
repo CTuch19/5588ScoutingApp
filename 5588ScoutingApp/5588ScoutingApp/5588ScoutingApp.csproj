@@ -84,6 +84,13 @@
     <Compile Include="FieldTab_.designer.cs">
       <DependentUpon>FieldTab_.cs</DependentUpon>
     </Compile>
+    <InterfaceDefinition Include="FormCreator.xib" />
+    <Compile Include="FormCreator.cs" />
+    <Compile Include="FormCreator.designer.cs">
+      <DependentUpon>FormCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionTypePickerViewModel.cs" />
+    <Compile Include="QuestionTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
