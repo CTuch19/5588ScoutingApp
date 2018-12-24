@@ -20,13 +20,13 @@ namespace _5588ScoutingApp
 
         }
 
-        public UITextField makeTextField(nint x, nint y, nint width, nint height)
+        public UITextField makeTextField(string placeholder, CGRect frame)
         {
             return new UITextField()
             {
                 BackgroundColor = UIColor.White,
-                Frame = new CGRect(x, y, width, height),
-                Placeholder = "Type question here",
+                Frame = frame,
+                Placeholder = placeholder,
                 KeyboardType = UIKeyboardType.Default
             };
         }

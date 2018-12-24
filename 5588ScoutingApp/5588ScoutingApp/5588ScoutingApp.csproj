@@ -91,6 +91,8 @@
     </Compile>
     <Compile Include="QuestionTypePickerViewModel.cs" />
     <Compile Include="QuestionTypes.cs" />
+    <Compile Include="FormQuestionSet.cs" />
+    <Compile Include="Question.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
